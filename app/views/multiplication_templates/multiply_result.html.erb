@@ -1,14 +1,7 @@
-<h1>Multiplication</h1>
-
-<dl>
-  <dt>First number</dt>
-  <dd><%= @first_number %></dd>
-
-  <dt>Second number</dt>
-  <dd><%= @second_number %></dd>
-
-  <dt>Result</dt>
-  <dd><%= @result %></dd>
-</dl>
-
-<a href="/multiply">Do another multiplication</a>
+<h1>Multiplication Result</h1>
+<p>You entered:</p>
+<ul>
+  <li>First number: <%= @first_number %></li>
+  <li>Second number: <%= @second_number %></li>
+</ul>
+<p>The result of multiplying <%= @first_number %> and <%= @second_number %> is <%= @result %>.</p>
